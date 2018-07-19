@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/ip"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/ipAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:gravity="bottom"
+            android:hint="sc.ftqq.com"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/port"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:gravity="bottom"
+            android:hint="80"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/key"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:gravity="bottom"
+            android:hint="SCU28677T61434f8fc1d7c4c5c08e6aeba795e4165b371bc71a693"
+            android:minHeight="50dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="号码"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:gravity="bottom"
+            android:hint="SCU28677T61434f8fc1d7c4c5c08e6aeba795e4165b371bc71a693"
+            android:minHeight="50dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/system"
+        android:text="保存"
+        android:textColor="#ffffff"/>
+</LinearLayout>

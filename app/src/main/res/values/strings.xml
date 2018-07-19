@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">短信转发器</string>
+    <string name="nopermission">NMB的不给权限还想进APP?</string>
+    <string name="ip">IP:</string>
+    <string name="port">端口</string>
+    <string name="key">key</string>
+    <string name="watchDog">必须给我把狗狗看完！！！！</string>
+    <string name="admin_description">设备管理器功能描述</string>
+    <string name="admin">短信转发--打开可以保活</string>
+</resources>
